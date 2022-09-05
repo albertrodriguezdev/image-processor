@@ -8,3 +8,4 @@ Compose it with docker compose.
 ```bash
 docker compose up
 ```
+Open [http://localhost:3000](http://localhost:3000) on a web browser.
