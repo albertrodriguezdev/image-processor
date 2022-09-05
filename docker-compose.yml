@@ -1,0 +1,13 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    image: image-processor-server
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    image: image-processor-client
+    ports:
+      - "3000:80"
